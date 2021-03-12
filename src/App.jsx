@@ -1,10 +1,8 @@
-import styles from './styles/global.scss';
+import { RepositoryList } from './components/RepositoryList';
+import './styles/global.scss';
 
 export function App() {
   return (
-    <>
-      <h1>Hello world!</h1>
-      <p>Jean Fernandes de Macedo aqui!</p>
-    </>
+    <RepositoryList />
   )
 }
