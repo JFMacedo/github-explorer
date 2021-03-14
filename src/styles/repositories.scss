@@ -7,11 +7,14 @@ section.repository-list {
 
   ul {
     list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
 
     li {
-      & + li {
-        margin-top: 20px;
-      }
+      padding: 16px;
+      border-radius: 8px;
+      background-color: #FAFAFA;
 
       p {
         font-size: 14px;
